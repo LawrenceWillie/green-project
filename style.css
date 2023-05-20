@@ -59,8 +59,6 @@ body {
       header .logo span{
         color: #557c3e;
         font-weight: 800;
-        
-        
       }
 
       body .lets-talk {
@@ -104,7 +102,13 @@ section #header-text {
 }
 
 section #textBox .text-container{
+  position: relative;
   padding: 5px;
+  height: 350px;
+}
+
+section #textBox .mySlides{
+  position:absolute;
 }
 
 section #textBox .mySlides h2 {
@@ -119,8 +123,12 @@ section #textBox .mySlides h2 span {
   font-size: 1.8em;
   font-weight: 900;
 }
+
 section #textBox .apply-cont{
+  position: absolute;
   padding: 20px;
+  bottom: 10%;
+
 }
 
 section #textBox .apply {

@@ -11,38 +11,31 @@
     <link rel="stylesheet" href="style.css">
     <script src="js/script.js"></script>
 </head>
-
-<div class="circle"></div> 
+<body>
+  
+  <div class="circle"></div> 
   <section>
     <header>
-		<a href="index.html" class="logo" style="text-decoration: none;"><img src="images/logoto.png" alt="logo-image" class="logo-image"><span>PYP PRO GREEN PROJECTS</span></a>
-		   <label id="menu-bar"  onclick="openNav()"><i class="fas fa-bars"></i></label>
-		   <div id="mySidenav" class="sidenav">
-			 <a  class="closebtn" onclick="closeNav()"><span>&times;close<span></a> 
-			 <ul>
-				 <li id="" class="active"><a href="index.html">Home</a></li>
-				 <li id="about.html" ><a href="">About</a></li>
-				 <li><a href="contact-us.html">Contact us</a></li>
-				 <li><a class="apply" href="#">Apply now</a></li>
-			 </ul>
-		   </div>
-	   </header>  
+     <a href="index.php" class="logo" style="text-decoration: none;"><img src="images/logoto.png" alt="logo-image" class="logo-image"><span>PYP PRO GREEN <span style="color: rgb(18, 167, 167);">PROJECTS</span></span></a>
+        <label id="menu-bar"  onclick="openNav()"><i class="fas fa-bars"></i></label>
+        <div id="mySidenav" class="sidenav">
+          <a  class="closebtn" onclick="closeNav()"><span>&times;close<span></a> 
+          <ul>
+              <li id="" class="active"><a href="index.php">Home</a></li>
+              <li id="about.php" ><a href="">About</a></li>
+              <li><a href="contact-us.php">Contact us</a></li>
+              <li><a class="apply" href="application.php">Apply now</a></li>
+          </ul>
+        </div>
+    </header>  
     <div id="header-text" class="row" >
                 <div id="textBox" class="col-lg-12 col-md-12">
-					<div class="text-container">
-						<div class="slideshow-container">
-							<div class="mySlides">
-							  <h2>Call: 078 352 1065.<br> <p style="color:rgb(255, 230, 9) ; font-size: 20px;">Play Your Part</p></h2>
-							  
-							</div>
-							 
-							<div class="mySlides">
-							  <h2>Call: 062 008 9567.<br> <p style="color:rgb(255, 230, 9) ; font-size: 20px;">Play Your Part</p></h2>
-							</div>
-					
-							<div class="mySlides">
-							  <h2>whatsapp: 078 352 1065.<br> <p style="color:rgb(255, 230, 9) ; font-size: 20px;">Play Your Part</p></h2>
-							</div>
+                  <div class="text-container">
+                    <div class="slideshow-container">
+                      <div class="mySlides">
+                        <h2>Green Energy.<br> <p style="color:rgb(255, 230, 9) ; font-size: 20px;">Play Your Part</p></h2>
+                        
+                      </div>
 	  
 								<div class="dots" >
 								  <span class="dot"></span>
@@ -52,7 +45,7 @@
 							</div>
 	  
 	
-							<div class="apply-cont"><a class="apply" href="#">Apply now</a></div>
+							<div class="apply-cont"><a class="apply" href="application.php">Apply now</a></div>
 	
 							<div class="call-us">
 							  <a class="call" href="tel:078 352 1065"><p><i id="phone" class="fas fa-phone"></i> </p></a>
@@ -138,10 +131,13 @@
 			  <hr class="visible-xs">
 			</section>
 			<section id="testimonials" class="col-sm-4">
-			  <p><i id="phone" class=""></i> CREDITS</p>
-			  <p><i id="whatsapp" class="fa-brands fa-gmail"></i> unsplash.com</p>
-			  <p></p>
-			</section>
+				<p><i id="phone" class=""></i> CONTACTS</p>
+				<p>EMAIL: msizaeiragmail.com</p>
+				<p>EMAIL: jogiramaje@gmail.com</p>
+				<p>CALL: 078 352 1065</p>
+				<p>CALL: 062 008 9567</p>
+				<p>""</p>
+			  </section>
 		  </div>
 		  <div class="text-center">&copy; PYP PRO GREEN PROJECTS pty Ltd 2023</div>
 		</div>

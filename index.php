@@ -16,15 +16,15 @@
   <div class="circle"></div> 
   <section>
     <header>
-     <a href="index.html" class="logo" style="text-decoration: none;"><img src="images/logoto.png" alt="logo-image" class="logo-image"><span>PYP PRO GREEN PROJECTS</span></a>
+     <a href="index.php" class="logo" style="text-decoration: none;"><img src="images/logoto.png" alt="logo-image" class="logo-image"><span>PYP PRO GREEN <span style="color: rgb(18, 167, 167);">PROJECTS</span></span></a>
         <label id="menu-bar"  onclick="openNav()"><i class="fas fa-bars"></i></label>
         <div id="mySidenav" class="sidenav">
           <a  class="closebtn" onclick="closeNav()"><span>&times;close<span></a> 
           <ul>
-              <li id="" class="active"><a href="index.html">Home</a></li>
-              <li id="about.html" ><a href="">About</a></li>
-              <li><a href="contact-us.html">Contact us</a></li>
-              <li><a class="apply" href="#">Apply now</a></li>
+              <li id="" class="active"><a href="index.php">Home</a></li>
+              <li id="about.php" ><a href="">About</a></li>
+              <li><a href="contact-us.php">Contact us</a></li>
+              <li><a class="apply" href="application.php">Apply now</a></li>
           </ul>
         </div>
     </header>  
@@ -36,14 +36,6 @@
                         <h2>Green Energy.<br> <p style="color:rgb(255, 230, 9) ; font-size: 20px;">Play Your Part</p></h2>
                         
                       </div>
-                       
-                      <div class="mySlides">
-                        <h2>Apply for funding.<br> <p style="color:rgb(255, 230, 9) ; font-size: 20px;">Play Your Part</p></h2>
-                      </div>
-              
-                      <div class="mySlides">
-                        <h2>Mobilizing Investment.<br> <p style="color:rgb(255, 230, 9) ; font-size: 20px;">Play Your Part</p></h2>
-                      </div>
 
                           <div class="dots" >
                             <span class="dot"></span>
@@ -52,7 +44,7 @@
                           </div> 
                       </div>
 
-                        <div class="apply-cont"><a class="apply" href="#">Apply now</a></div>
+                        <div class="apply-cont"><a class="apply" href="application.php">Apply now</a></div>
 
                         <div class="call-us">
                           <a class="call" href="tel:078 352 1065"><p><i id="phone" class="fas fa-phone"></i> </p></a>
@@ -91,6 +83,53 @@
               <div class="pic1"><img src="images/greenenergy.jpg" alt="solar-panel" class="solar-panel">
               
               </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <h2>Apply Here</h2>
+        <div class="layer1">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="form-container">
+              <form method="post" action="#">
+              <!-- <?php include('errors.php'); ?> -->
+              <div class="input-cnt">
+              <i id="name" class="fas fa-user"></i>
+              <input type="text" name="first_name" value="<?php echo $first_name; ?>">
+              </div>
+
+              <div class="input-cnt">
+              <i id="name" class="fas fa-user"></i>
+              <input type="text" name="last_name" value="<?php echo $last_name; ?>">
+              </div>
+
+                <div class="input-cnt">
+                  <i id="email" class="fas fa-envelope"></i>
+                  <input type="email" placeholder="0793365832" name="email" value="<?php echo $email; ?>">
+                  </div>
+
+                  <div class="input-cnt">
+                  <i id="email" class="fas fa-phone"></i>
+                  <input type="tel" placeholder="www.law@gmail.com"  name="cellphone" value="<?php echo $cellphone; ?>">
+                  </div>
+
+      
+              <div class="input-cnt">
+                <i id="message" class="fas fa-message"></i>
+                <textarea placeholder="Describe your business" type="text" name="message" value="<?php echo $message; ?>" ></textarea>
+                </div>
+              <div class="input-cnt">
+                <input type="submit" />
+              </div>
+              
+              </form>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="description">
+              <div class="pic1"><img src="images/greenprojects2.jpeg" alt="solar-panel" class="solar-panel"></div>
               
             </div>
           </div>
@@ -137,6 +176,46 @@
             </div>
           </div>
         </div>
+
+        <h2>contact us</h2>
+		<div class="layer3">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<div class="form-container">
+				<form method="post" action="#">
+				<!-- <?php include('errors.php'); ?> -->
+				<div class="input-cnt">
+				<i id="name" class="fas fa-user"></i>
+				<input type="text" placeholder="name"  name="name" >
+				</div>
+
+
+					<div class="input-cnt">
+						<i id="email" class="fas fa-envelope"></i>
+						<input type="text" placeholder="email" name="email" >
+						</div>
+
+				<div class="input-cnt">
+					<i id="message" class="fas fa-message"></i>
+					<textarea placeholder="your message here..." name="message"></textarea>
+					</div>
+				<div class="input-cnt">
+					<input type="submit" />
+				</div>
+				
+				</form>
+				</div>
+
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<div class="description">
+					<div class="pic1"><img src="images/contact us hrere.jpg" alt="solar-panel" class="solar-panel">
+					
+					</div>
+					
+					</div>
+				</div>
+				</div>
 
         <!-- MEMBERS OF THE PYP PROJECT -->
     <div id="members" class="row">
@@ -206,8 +285,11 @@
           <hr class="visible-xs">
         </section>
         <section id="testimonials" class="col-sm-4">
-          <p><i id="phone" class=""></i> CREDITS</p>
-          <p><i id="whatsapp" class="fa-brands fa-gmail"></i> unsplash.com</p>
+          <p><i id="phone" class=""></i> CONTACTS</p>
+          <p>EMAIL: msizaeiragmail.com</p>
+          <p>EMAIL: jogiramaje@gmail.com</p>
+          <p>CALL: 078 352 1065</p>
+          <p>CALL: 062 008 9567</p>
           <p>""</p>
         </section>
       </div>
